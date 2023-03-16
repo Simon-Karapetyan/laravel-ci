@@ -13,4 +13,15 @@ class ExampleTest extends TestCase
     {
         $this->assertTrue(true);
     }
+
+
+    /**
+     * A basic test example.
+     */
+    public function test_sum_of_the_two_numbers(): void
+    {
+        $num1 = 5;
+        $num2 = 2;
+        $this->assertTrue($num1 + $num2 === 7);
+    }
 }
