@@ -21,4 +21,9 @@ class ExampleTest extends TestCase
     {
         $this->assertEquals(1, 1);
     }
+
+    public function test_assert_not_equals(): void
+    {
+        $this->assertNotEquals(1, 2);
+    }
 }
