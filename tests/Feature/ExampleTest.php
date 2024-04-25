@@ -16,4 +16,9 @@ class ExampleTest extends TestCase
 
         $response->assertStatus(200);
     }
+
+    public function test_assert_equals(): void
+    {
+        $this->assertEquals(1, 1);
+    }
 }
